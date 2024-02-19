@@ -9,19 +9,18 @@ public class taskNumbers {
 
         System.out.println("Введите число b: ");
         int b = in.nextInt();
-        
-        if (a<b) {
+
+        if (a < b) {
             System.out.println("a<b");
-        } else if (a>b) {
+        } else if (a > b) {
             System.out.println("a>b");
-        }
-        else {
+        } else {
             System.out.println("a=b");
         }
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
 
         in.close();
     }

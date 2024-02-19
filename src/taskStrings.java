@@ -13,8 +13,7 @@ public class taskStrings {
 
         if (a.equals(b)) {
             System.out.println("Строки идентичны");
-        }
-        else {
+        } else {
             System.out.println("Строки не идентичны");
         }
 
